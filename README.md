@@ -70,6 +70,16 @@ Salvaged is very interesting in its approach to VR, the VR experience is a first
 
 These games show that top down can be used to a level of success with VR, but a dungeon crawler style game has not been attempted yet. 
 
+# Design of the solution
+
+The player will have a virtual reality headset, two motion controllers (one in each hand) and a tracking device attached to a belt around their waist.
+
+The headset is used for the players view. It has a top down perspective although the player looks directly forward rather than down. The player can look around in full 360 degrees but too much of this can cause motion sickness.
+
+The controllers are used for character movement, shooting, pickups and switching between weapons. They also give haptic feedback when the player gets hit by a projectile.
+
+The tracker is attached to the players belt and used for the ‘special attack’, when the player does a fast movement of the hips then it will trigger the special attack.
+
 
 # User Stories
 
