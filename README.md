@@ -1,5 +1,6 @@
 # COMP210_2_interace_task
 
+# Proposal
 
 The game I will be making for the VR project will be a top down bullet hell dungeon crawler. This will be achieved by using the VR controllers in the style of a twin stick shooter. 
 
@@ -33,6 +34,7 @@ VR rouge like dungeon crawler in the first-person perspective, rated very positi
 ![DungeonKnight](https://raw.githubusercontent.com/Phil-Sparkes/COMP210_2_interace_task/master/Pictures/Dungeon%20Knight.png)
 
 (http://store.steampowered.com/app/566860/VR_Dungeon_Knight/)
+
 
 First person randomly generated dungeon crawler also having very positive reviews
 
@@ -69,4 +71,37 @@ Salvaged is very interesting in its approach to VR, the VR experience is a first
 These games show that top down can be used to a level of success with VR, but a dungeon crawler style game has not been attempted yet. 
 
 
+# User Stories
 
+### As a player I would like the game to feel like a traditional twin stick shooter.
+A traditional twin stick shooter has two joysticks, one for player movement and one for aiming. To achieve this in VR I decided to use the two VR motion controllers in the same way. One for movement and one for aiming.
+
+### As a player I would like to be able to move my character in an intuitive way.
+In the game both controllers have laser pointers that are aimed at the Gameworld. For intuitive movement the player would aim at a location in the world and the character would move there using “simple move to location” this proved to be very buggy through playtesting so was later changed to walk directly towards the pointer when trigger was held down. This new method worked well and was considered intuitive after playtesting again.
+
+### As a player I want to be able to aim with a good amount of accuracy.
+The player can aim at a location in the world and pull the trigger. The projectile will travel towards directly towards the location so this has been achieved.
+
+### As a player I want the gameplay to be fast paced.
+Through good control of the character and being able to move and shoot at the same time this has been achieved.
+
+### As a player I want gameplay to be somewhat challenging.
+Dodging the enemy projectiles and being able to shoot them does take some time to get good at and could be considered challenging.
+
+### As a player I want physical feedback when I get hit by a projectile.
+When the player gets hit by a projectile both controllers vibrate.
+
+### As a player I want a special move that works with a physical movement.
+A special move was added when the player provides a fast hip movement. Projectiles would spawn in all directions from the player.
+
+### As a user I want the camera to be in the top down perspective.
+Top down camera has been implemented but also the player has freedom to look around to not induce motion sickness.
+
+### As a user I do not want a sense of motion sickness playing the game.
+With the unusual camera angle some player did induce motion sickness but giving the player freedom to look around did help with this.
+
+### As a player I want to be able to pick up and use weapons.
+The game has weapon loot boxes which drop weapons, the player can pick up these weapons and switch between them.
+
+### As a player I want randomly generated levels.
+The game has five generated levels.
